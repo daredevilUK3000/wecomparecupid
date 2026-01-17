@@ -1,17 +1,17 @@
 import { useState } from 'react';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { Slider } from '@/components/ui/slider';
+import { Button } from '@/components/ui/button.tsx';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card.tsx';
+import { Badge } from '@/components/ui/badge.tsx';
+import { Slider } from '@/components/ui/slider.tsx';
 import { Checkbox } from '@/components/ui/checkbox.tsx';
-import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
-import { Label } from '@/components/ui/label';
-import { Progress } from '@/components/ui/progress';
+import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group.tsx';
+import { Label } from '@/components/ui/label.tsx';
+import { Progress } from '@/components/ui/progress.tsx';
 import { Heart, ArrowRight, ArrowLeft, CheckCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { UserPreferences, defaultPreferences, relationshipGoals, budgetOptions, commonInterests, dealBreakers } from '@/data/preferences';
-import { datingSites } from '@/data/datingSites';
-import { rankSites, MatchResult } from '@/utils/matching';
+import { UserPreferences, defaultPreferences, relationshipGoals, budgetOptions, commonInterests, dealBreakers } from '@/data/preferences.ts';
+import { datingSites } from '@/data/datingSites.ts';
+import { rankSites, MatchResult } from '@/utils/matching.ts';
 
 const Quiz = () => {
   const [currentStep, setCurrentStep] = useState(1);
