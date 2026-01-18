@@ -117,13 +117,12 @@ const Index = () => {
 
             <div className="relative">
               <div className="relative z-10">
-                <div className="w-full h-[500px] bg-gradient-to-br from-pink-200 to-purple-300 rounded-2xl shadow-2xl flex items-center justify-center">
-                  <div className="text-center text-white">
-                    <Heart className="h-24 w-24 mx-auto mb-4" />
-                    <h3 className="text-2xl font-bold">Find Your Perfect Match</h3>
-                  </div>
-                </div>
-              </div>
+  <img
+    src="./images/find-your-perfect-match-1.jpg"
+    alt="Happy couple in love"
+    className="rounded-2xl shadow-2xl w-full h-[500px] object-cover"
+  />
+</div>
               <div className="absolute -top-4 -right-4 w-full h-full bg-gradient-to-br from-pink-200 to-purple-200 rounded-2xl -z-10"></div>
             </div>
           </div>
