@@ -118,7 +118,7 @@ const Index = () => {
             <div className="relative">
               <div className="relative z-10">
   <img
-    src="./images/find-your-perfect-match-(1).jpg"
+    src="./images/Find-your-perfect-match-(1).jpg"
     alt="Happy couple in love"
     className="rounded-2xl shadow-2xl w-full h-[500px] object-cover"
   />
