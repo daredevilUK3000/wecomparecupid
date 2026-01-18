@@ -263,7 +263,7 @@ const Quiz = () => {
             <Link to="/" className="flex items-center space-x-2">
               <Heart className="h-8 w-8 text-pink-500" />
               <span className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">
-                We Compare Cupid
+                Kizzi Compare
               </span>
             </Link>
           </div>
@@ -374,7 +374,7 @@ const Quiz = () => {
           <Link to="/" className="flex items-center space-x-2">
             <Heart className="h-8 w-8 text-pink-500" />
             <span className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">
-              We Compare Cupid
+              Kizzi Compare
             </span>
           </Link>
         </div>
