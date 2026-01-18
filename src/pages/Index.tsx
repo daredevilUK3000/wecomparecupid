@@ -46,7 +46,7 @@ const Index = () => {
           <div className="flex items-center space-x-2">
             <Heart className="h-8 w-8 text-pink-500" />
             <span className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-purple-600 bg-clip-text text-transparent">
-              We Compare Cupid
+              Kizzi Compare
             </span>
           </div>
           <nav className="hidden md:flex items-center space-x-6">
@@ -134,7 +134,7 @@ const Index = () => {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Why Choose We Compare Cupid?</h2>
+            <h2 className="text-4xl font-bold mb-4">Why Choose Kizzi Compare?</h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
               We take the guesswork out of online dating by matching you with the right platforms
             </p>
@@ -239,7 +239,7 @@ const Index = () => {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <Heart className="h-6 w-6 text-pink-500" />
-                <span className="text-xl font-bold">We Compare Cupid</span>
+                <span className="text-xl font-bold">Kizzi Compare</span>
               </div>
               <p className="text-gray-400">
                 Helping people find love on the right platform since 2024.
@@ -271,7 +271,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 We Compare Cupid. All rights reserved.</p>
+            <p>&copy; 2024 Kizzi Compare. All rights reserved.</p>
           </div>
         </div>
       </footer>
