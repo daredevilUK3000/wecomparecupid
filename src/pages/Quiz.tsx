@@ -13,6 +13,13 @@ import { UserPreferences, defaultPreferences, relationshipGoals, budgetOptions, 
 import { datingSites } from '@/data/datingSites.ts';
 import { rankSites, MatchResult } from '@/utils/matching.ts';
 
+import { trackEvent } from '@/lib/analytics';
+
+// When quiz is completed
+trackEvent('quiz_completed', 'engagement', 'dating_quiz');
+
+// When user clicks "Visit Site" button
+trackEvent('visit_dating_site', 'conversion', siteName);
 const Quiz = () => {
   const [currentStep, setCurrentStep] = useState(1);
   const [preferences, setPreferences] = useState<UserPreferences>(defaultPreferences);
